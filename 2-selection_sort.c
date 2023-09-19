@@ -13,7 +13,7 @@ void selection_sort(int *array, size_t size)
 	int tmpdata = 0;
 
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < size - 1; i++)
 	{
 		tmpidx = i;
 		for (j = i + 1; j < size ; j++)
